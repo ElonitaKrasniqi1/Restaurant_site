@@ -1,3 +1,10 @@
+root {
+
+    --font: slategrey;
+    --background: wheat;
+    --menuColor: slategrey;
+} 
+
 body {
     width: auto;
     background-image: url('https://t4.ftcdn.net/jpg/00/93/46/99/360_F_93469979_yOX5piV5SFE7mYp6wwg6MnHy27OvFBq3.jpg');
