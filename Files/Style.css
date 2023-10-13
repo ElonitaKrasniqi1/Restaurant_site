@@ -1,0 +1,51 @@
+body {
+    width: auto;
+    background-image: url('https://t4.ftcdn.net/jpg/00/93/46/99/360_F_93469979_yOX5piV5SFE7mYp6wwg6MnHy27OvFBq3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: wheat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navBar {
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.navBar a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    margin: 10px;
+}
+
+i {
+    font-size: 20px;
+}
+
+i:hover,
+a:hover {
+    color: dodgerblue;
+    cursor: pointer;
+}
+
+.navBar nav li {
+    padding: 10px;
+    margin: 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#hamMenu {
+    visibility: hidden;
+}
