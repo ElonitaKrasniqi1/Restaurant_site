@@ -1,18 +1,20 @@
 root {
 
-    --font: slategrey;
-    --background: wheat;
-    --menuColor: slategrey;
+    --font: rgb(0, 0, 0);
+    --background: rgb(255, 255, 255);
+    --menuColor: rgb(0, 0, 0);
 } 
 
 body {
     width: auto;
-    background-image: url('https://t4.ftcdn.net/jpg/00/93/46/99/360_F_93469979_yOX5piV5SFE7mYp6wwg6MnHy27OvFBq3.jpg');
+    background-image: url('https://img.freepik.com/free-photo/top-view-milk-white-chocolate-copy-space_23-2148238696.jpg?w=1060&t=st=1699210498~exp=1699211098~hmac=3b338b9e938ede4d10294a7e63ebdffc3d27fd03c4401c5017a00ee7afa8cba8');
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    background-color: wheat;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
 }
 
 .navBar {
@@ -84,6 +86,7 @@ a:hover {
     opacity: 0.9;
     background-color: transparent;
     border-radius: 10px;
+    font-style: italic;
 
 }
 
@@ -99,13 +102,13 @@ a:hover {
     width: 75%;
     border-radius: 10%;
     height: auto;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
     filter: blur(0.5px);
 }
 
 .menuIntro {
     text-align: center;
-    color: rgb(39, 39, 39);
+    color: rgb(0, 0, 0);
     border-radius: 10px;
 }
 
@@ -118,8 +121,8 @@ a:hover {
     text-align: center;
     padding: 20px;
     opacity: 0.9;
-    background-color: rgba(100, 98, 98, 0.288);
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: rgba(0, 0, 0, 0.288);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -140,7 +143,7 @@ a:hover {
 
     html {
         font-size: 12px;
-        font-family: Arial, Helvetica, sans-serif;
+        font-family: cursive;
     }
 
     h2,
@@ -185,11 +188,11 @@ a:hover {
     width: 50%;
     padding: 0;
     margin: 20px 0 20px 8%;
-    border-bottom: 1px solid slategray;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 .dish {
     float: left;
-    color: #555;
+    color: #000000;
     font-weight: bold;
     position: relative;
     z-index: 1;
@@ -199,7 +202,7 @@ a:hover {
 
 .Price {
     float: right;
-    color: #555;
+    color: #000000;
     font-weight: bold;
     position: relative;
     background-color: transparent;
@@ -209,7 +212,7 @@ a:hover {
 .Description {
     clear: both;
     display: block;
-    color: #999;
+    color: #000000;
     font-style: italic;
     font-size: 14px;
     padding-top: 10px;
@@ -282,7 +285,7 @@ a:hover {
     border-radius: 5px;
     color: white;
     text-shadow: 0.5px 0.5px black;
-    background-color: rgb(109, 103, 93);
+    background-color: rgb(0, 0, 0);
     padding: 10px;
 }
 
@@ -295,3 +298,439 @@ a:hover {
     background-color: rgba(30, 96, 161, 0.801);
     border: none;
 }
+
+#map {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    margin-top: 800px;
+    margin-left: 800px;
+}
+
+.footer-basic {
+    background-image: url("https://wallpapers.com/images/hd/plain-black-background-ozgsjzlrpwaioxps.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-basic .social i {
+    color: white;
+    margin: 10px;
+}
+
+.footer-basic .list-inline-item a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.footer-basic .copyright {
+    color: white;
+    margin-top: 10px;
+}
+.powered-by {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: smaller;
+    font-style: italic;
+    position: absolute;
+  }
+  
+  .powered-by span:first-child::after {
+    content: "";
+    display: inline-block;
+    width: 10px; 
+    border-top: 1px solid white; 
+    margin: 0 10px; 
+    color: white;
+  }
+  
+  .contactusBody {
+    width: auto;
+    background-image: url('https://b.zmtcdn.com/mx-onboarding-hero87f77501659a5656cad54d98e72bf0d81627911821.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: white;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+}
+.cu-mess {
+    width: 400px;
+    height: auto;
+    float: left;
+    clear: both;
+    position: absolute;
+    margin-top: 800px;
+    margin-left: 50px;
+    color: #000;
+}
+
+.f-basic {
+    background-image: url("https://img.freepik.com/free-photo/grunge-black-concrete-textured-background_53876-124541.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-basic .social i {
+    color: white;
+    margin: 10px;
+}
+
+.f-basic .list-inline-item a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.f-basic .copyright {
+    color: white;
+    margin-top: 10px;
+}
+
+.aboutusBody {
+    width: auto;
+    background-image: url('https://img.freepik.com/premium-photo/preparation-cooking-wooden-background-top-view-free-space-text_187166-51517.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: white;
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    height: 720px;
+}
+
+.h3-1{
+    color: black;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 1100px;
+    margin-left: 600px;
+    font-style: italic;
+}
+.o-story{
+    color: black;
+    font-family: serif;
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 625px; 
+}
+.h3-1, .o-story, .h3-2, .h3-3 {
+    color: black;
+    font-family: cursive;
+    position: absolute;
+    font-style: italic;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.p-os{
+    margin-top: 1225px;
+    color: black;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-family: cursive;
+    font-size: 20px;
+}
+.au-rec1{
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 100px;
+    margin-right: 970px;
+}
+.h3-2{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.img-container {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 900px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.img-container:hover {
+    transform: scale(1.1);
+}
+.h3-3{
+    color: black;
+    font-family: cursive;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 900px;
+    font-style: italic;
+}
+.us-us{
+    color: #000;
+    font-size: 20px;
+    font-family: cursive;
+    margin-top: 150px;
+    position: absolute;
+    margin-left: 900px;
+    margin-right: 150px;
+}
+.cont-1{
+    margin-left: 100px;
+    width: 450px;
+    transition: transform 0.3s;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+.cont-1:hover {
+    transform: scale(1.1);
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.comment{
+    margin-left: 550px;
+    margin-top: 50px;
+}
+/* Stili për butonin */
+#submitBtn {
+    background-color: #454545;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#submitBtn:hover {
+    background-color: #454545;
+}
+.f-basica {
+    background-image: url("https://wallpapers.com/images/hd/plain-black-background-ozgsjzlrpwaioxps.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-basica .social i {
+    color: white;
+    margin: 10px;
+}
+
+.f-basica .list-inline-item a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.f-basica .copyright {
+    color: white;
+    margin-top: 10px;
+}
+.menuBody {
+    width: auto;
+    background-image: url('https://img.freepik.com/free-photo/roasted-pork-steak-dark-wooden-surface_1150-44364.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-color: white;
+    font-family: cursive;
+    flex-direction: column;
+}
+.menu-1 {
+    display: inline-block;
+    margin-right: 70px; 
+    color: #000;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: cursive;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    z-index: 2;
+}
+
+.menu-1:last-child {
+    margin-right: 0; 
+}
+
+.main {
+  margin-left: 500px;
+
+  }
+  
+
+.menu-1:hover {
+    background-color: #9da4aa;
+}
+
+
+.hidden {
+    display: none;
+    position: absolute;
+    background-color:#bac2c8;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    top: 100%;
+    transition: top 0.2s ease, left 0.2s ease;
+    z-index: 1;
+}
+
+
+.food-list {
+    list-style: none;
+    padding: 0;
+}
+
+.food-item {
+    margin: 5px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1700px;
+    position: absolute;
+  }
+  
+  .image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  
+  .image img:hover {
+    transform: scale(1.1);
+  }
+  
+  .gallerytitle{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 1625px;
+    font-family: 'Brush Script MT', cursive;
+    color: black;
+    font-size: 45px;
+  }
+  .first-paragraph p{
+    position: absolute;
+    margin-top: 1250px;
+    color: black;
+    border: 5px solid gray;
+    width: 400px;
+    height: 100 px;
+    border-radius: 5px;
+  }
+  .second-paragraph p{
+    position: absolute;
+    margin-top: 1250px;
+    color: black;
+    border: 5px solid gray;
+    width: 400px;
+    height: 100 px;
+    margin-left: 700 px;
+    border-radius: 5px;
+  }
+  /* Stili për vlerësimin */
+.review {
+    position: absolute;
+    text-align: center;
+    margin-top: 2200px;
+    color: black;
+    margin-left: 500px;
+  }
+  
+  .star {
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  /* Stili për yjet që janë të vlerësuara */
+  .star.selected {
+    color: gold;
+  }
+  
+.f-basicm {
+    background-image: url("https://wallpapers.com/images/hd/plain-black-background-ozgsjzlrpwaioxps.jpg");
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.f-basicm .social i {
+    color: white;
+    margin: 10px;
+}
+
+.f-basicm .list-inline-item a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.f-basicm .copyright {
+    color: white;
+    margin-top: 10px;
+}
+
+  
+  

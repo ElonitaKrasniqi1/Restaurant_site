@@ -7,7 +7,7 @@ Usage
 Contributing
 
 # Description
-This project is a simple restaurant website developed with HTML and CSS. It showcases the restaurant's menu, contact information, and our story.
+This project is a simple restaurant website developed with HTML, CSS, JavaScript and some JQuery. It showcases the restaurant's menu, contact information, our story and location.
 
 # Usage
 Clone this repository to your local machine.
